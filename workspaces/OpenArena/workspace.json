@@ -1,6 +1,6 @@
 {
   "description": "OpenArena is a community-produced deathmatch FPS based on GPL idTech3 technology.",
-  "docker_registry": "https://ghcr.io",
+  "docker_registry": "https://sccr.sullyschoice.net",
   "image_src": "openarena.png",
   "run_config": {
   },
@@ -16,7 +16,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "ghcr.io/sullyschoice/kasm-openarena:latest",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-openarena:latest",
       "uncompressed_size_mb": 3800,
       "available_tags": [
         "latest"
@@ -24,7 +24,7 @@
     },
     {
       "version": "1.18.x",
-      "image": "ghcr.io/sullyschoice/kasm-openarena:latest",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-openarena:latest",
       "uncompressed_size_mb": 3800,
       "available_tags": [
         "latest"
