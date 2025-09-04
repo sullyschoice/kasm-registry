@@ -2,6 +2,7 @@
   "description": "Doom 3 (Demo) is a sci-fi horror first-person shooter computer game developed by id Software and published by Activision",
   "docker_registry": "https://ghcr.io",
   "image_src": "doom3.png",
+  "gpu_count": 1,
   "run_config": {
   },
   "exec_config": {
