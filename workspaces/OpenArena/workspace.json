@@ -11,8 +11,7 @@
   ],
   "friendly_name": "OpenArena",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     {
