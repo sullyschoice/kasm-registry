@@ -1,0 +1,35 @@
+{
+  "description": "GravityMark GPU Benchmark demonstrates the capabilities of modern GPUs by rendering an enormous quantity of objects in real-time, utilizing GPU acceleration.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "gravitymark.png",
+  "gpu_count": 1,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Games"
+  ],
+  "friendly_name": "GravityMark",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-gravitymark:latest",
+      "uncompressed_size_mb": 3800,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-gravitymark:latest",
+      "uncompressed_size_mb": 3800,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
