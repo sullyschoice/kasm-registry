@@ -30,6 +30,14 @@
       "available_tags": [
         "latest"
       ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-gravitymark:latest",
+      "uncompressed_size_mb": 3800,
+      "available_tags": [
+        "latest"
+      ]
     }
   ]
 }

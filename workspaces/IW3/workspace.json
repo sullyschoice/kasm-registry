@@ -1,0 +1,44 @@
+{
+  "description": "Convert any 2D image/video into side-by-side 3D image/video",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "iw3.png",
+  "gpu_count": 1,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Multimedia",
+    "Utilities"
+  ],
+  "friendly_name": "IW3",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-iw3:latest",
+      "uncompressed_size_mb": 13800,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-iw3:latest",
+      "uncompressed_size_mb": 13800,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-iw3:latest",
+      "uncompressed_size_mb": 13800,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
