@@ -1,0 +1,45 @@
+{
+  "description": "The most powerful and modular visual AI engine and application.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "comfyui.png",
+  "gpu_count": 1,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "AI",
+    "Utilities",
+    "Multimedia"
+  ],
+  "friendly_name": "ComfyUI",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-comfyui:latest",
+      "uncompressed_size_mb": 12800,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-comfyui:latest",
+      "uncompressed_size_mb": 12800,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-comfyui:latest",
+      "uncompressed_size_mb": 12800,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
