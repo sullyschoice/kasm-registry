@@ -1,0 +1,45 @@
+{
+  "description": "COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "colmap.png",
+  "gpu_count": 1,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Multimedia",
+    "Utilities",
+    "3D"
+  ],
+  "friendly_name": "COLMAP",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-colmap:latest",
+      "uncompressed_size_mb": 17000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-colmap:latest",
+      "uncompressed_size_mb": 17000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-colmap:latest",
+      "uncompressed_size_mb": 17000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
