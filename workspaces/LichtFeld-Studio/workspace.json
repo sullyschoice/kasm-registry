@@ -1,0 +1,45 @@
+{
+  "description": "LichtFeld-Studio is a free, open-source implementation of 3D Gaussian Splatting that pushes the boundaries of real-time rendering performance",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "ls.png",
+  "gpu_count": 1,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Multimedia",
+    "Utilities",
+    "3D"
+  ],
+  "friendly_name": "LichtFeld-Studio",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-lichtfeld-studio:latest",
+      "uncompressed_size_mb": 26000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-lichtfeld-studio:latest",
+      "uncompressed_size_mb": 26000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-lichtfeld-studio:latest",
+      "uncompressed_size_mb": 26000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
