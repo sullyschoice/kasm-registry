@@ -1,0 +1,45 @@
+{
+  "description": "AI Toolkit is an all in one training suite for diffusion models.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "ai-toolkit.png",
+  "gpu_count": 1,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "AI",
+    "Utilities",
+    "Multimedia"
+  ],
+  "friendly_name": "AI Toolkit",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-ai-toolkit:latest",
+      "uncompressed_size_mb": 16000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-ai-toolkit:latest",
+      "uncompressed_size_mb": 16000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-ai-toolkit:latest",
+      "uncompressed_size_mb": 16000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
