@@ -1,0 +1,43 @@
+{
+  "description": "Unreal Tournament is a 1999 first-person shooter game developed by Epic Games",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "ut99.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Games"
+  ],
+  "friendly_name": "Unreal Tournament",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal-tournament-1999:latest",
+      "uncompressed_size_mb": 4400,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal-tournament-1999:latest",
+      "uncompressed_size_mb": 4400,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal-tournament-1999:latestt",
+      "uncompressed_size_mb": 4400,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
