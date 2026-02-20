@@ -1,0 +1,43 @@
+{
+  "description": "First-person arena shooter video game developed by Epic Games .",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "ut2004.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Games"
+  ],
+  "friendly_name": "Unreal Tournament 2004",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal-tournament-2004:latest",
+      "uncompressed_size_mb": 9700,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal-tournament-2004:latest",
+      "uncompressed_size_mb": 9700,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal-tournament-2004:latestt",
+      "uncompressed_size_mb": 9700,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
