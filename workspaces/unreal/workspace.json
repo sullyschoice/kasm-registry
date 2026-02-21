@@ -4,6 +4,9 @@
   "image_src": "unreal.png",
   "gpu_count": 1,
   "run_config": {
+    "environment": {
+      "DISABLE_CUSTOM_STARTUP": "1"
+    }
   },
   "exec_config": {
   },
