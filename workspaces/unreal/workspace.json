@@ -1,0 +1,43 @@
+{
+  "description": "Unreal is a 1998 first-person shooter game developed by Epic Games",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "unreal.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Games"
+  ],
+  "friendly_name": "Unreal",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal:latest",
+      "uncompressed_size_mb": 4400,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal:latest",
+      "uncompressed_size_mb": 4400,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unreal:latestt",
+      "uncompressed_size_mb": 4400,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
