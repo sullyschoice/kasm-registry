@@ -2,7 +2,7 @@
   "description": "Unreal is a 1998 first-person shooter game developed by Epic Games",
   "docker_registry": "https://sccr.sullyschoice.net",
   "image_src": "unreal.png",
-  "gpu_count": 1,
+  "gpu_count": 0,
   "run_config": {
     "environment": {
       "DISABLE_CUSTOM_STARTUP": "1"
