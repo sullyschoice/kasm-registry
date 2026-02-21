@@ -12,7 +12,8 @@
   ],
   "friendly_name": "Unreal Tournament 2004",
   "architecture": [
-    "amd64"
+    "amd64",
+    "arm64"
   ],
   "compatibility": [
     {
