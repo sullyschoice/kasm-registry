@@ -2,7 +2,7 @@
   "description": "The AI that actually does things.",
   "docker_registry": "https://sccr.sullyschoice.net",
   "image_src": "openclaw.png",
-  "gpu_count": 1,
+  "gpu_count": 0,
   "run_config": {
   },
   "exec_config": {
@@ -13,7 +13,8 @@
   ],
   "friendly_name": "OpenClaw",
   "architecture": [
-    "amd64"
+    "amd64",
+    "arm64"
   ],
   "compatibility": [
     {
