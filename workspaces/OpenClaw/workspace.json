@@ -18,7 +18,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "sccr.sullyschoice.net/sullyschoice/openclaw:latest",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-openclaw:latest",
       "uncompressed_size_mb": 18000,
       "available_tags": [
         "latest"
@@ -26,7 +26,7 @@
     },
     {
       "version": "1.18.x",
-      "image": "sccr.sullyschoice.net/sullyschoice/openclaw:latest",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-openclaw:latest",
       "uncompressed_size_mb": 18000,
       "available_tags": [
         "latest"
@@ -34,7 +34,7 @@
     },
     {
       "version": "1.19.x",
-      "image": "sccr.sullyschoice.net/sullyschoice/openclaw:latest",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-openclaw:latest",
       "uncompressed_size_mb": 18000,
       "available_tags": [
         "latest"
