@@ -3,6 +3,7 @@
   "docker_registry": "https://sccr.sullyschoice.net",
   "image_src": "netryx-astra.png",
   "gpu_count": 1,
+  "memory": 8192,
   "run_config": {
   },
   "exec_config": {
@@ -13,7 +14,8 @@
   ],
   "friendly_name": "AI Toolkit",
   "architecture": [
-    "amd64"
+    "amd64",
+    "arm64"
   ],
   "compatibility": [
     {
