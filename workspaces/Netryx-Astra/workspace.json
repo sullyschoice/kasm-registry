@@ -1,0 +1,44 @@
+{
+  "description": "State-of-the-art AI geolocation from a single image..",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "netryx-astra.png",
+  "gpu_count": 1,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "OSINT",
+    "AI"
+  ],
+  "friendly_name": "AI Toolkit",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-netryx-astra:latest",
+      "uncompressed_size_mb": 22000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-netryx-astra:latest",
+      "uncompressed_size_mb": 22000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-netryx-astra:latest",
+      "uncompressed_size_mb": 22000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
