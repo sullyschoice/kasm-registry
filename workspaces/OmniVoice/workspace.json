@@ -1,0 +1,44 @@
+{
+  "description": "OmniVoice is a state-of-the-art massively multilingual zero-shot text-to-speech model",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "omnivoice.jpg",
+  "gpu_count": 1,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Multimedia",
+    "AI"
+  ],
+  "friendly_name": "OmniVoice",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-omnivoice:latest",
+      "uncompressed_size_mb": 30000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-omnivoice:latest",
+      "uncompressed_size_mb": 30000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-omnivoice:latest",
+      "uncompressed_size_mb": 30000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
