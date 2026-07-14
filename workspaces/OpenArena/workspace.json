@@ -3,6 +3,9 @@
   "docker_registry": "https://sccr.sullyschoice.net",
   "image_src": "openarena.png",
   "run_config": {
+    "environment": {
+      "KVNC_POINTER_GAME_MODE": "true"
+    }
   },
   "exec_config": {
   },
