@@ -5,7 +5,8 @@
   "gpu_count": 0,
   "run_config": {
     "environment": {
-      "DISABLE_CUSTOM_STARTUP": "1"
+      "DISABLE_CUSTOM_STARTUP": "1",
+      "KVNC_POINTER_GAME_MODE": "true"
     }
   },
   "exec_config": {
