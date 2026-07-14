@@ -4,6 +4,9 @@
   "image_src": "doom3.png",
   "gpu_count": 1,
   "run_config": {
+    "environment": {
+      "KVNC_POINTER_GAME_MODE": "true"
+    }
   },
   "exec_config": {
   },
