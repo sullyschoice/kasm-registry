@@ -1,0 +1,44 @@
+{
+  "description": "Superposition Benchmark is benchmarking software based on the UNIGINE Engine",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "unigen-superposition.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Games",
+    "Utilities"
+  ],
+  "friendly_name": "Unigen Superposition",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unigen-superposition:latest",
+      "uncompressed_size_mb": 6000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unigen-superposition:latest",
+      "uncompressed_size_mb": 6000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-unigen-superposition:latest",
+      "uncompressed_size_mb": 6000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
