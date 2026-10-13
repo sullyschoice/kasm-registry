@@ -1,0 +1,45 @@
+{
+  "description": "Open-source, native PDF workbench: read, comment, fill and sign forms, organize, edit, redact and export PDFs.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "pdfcraft.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Office",
+    "Utilities"
+  ],
+  "friendly_name": "PdfCraft",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-pdfcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-pdfcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-pdfcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}

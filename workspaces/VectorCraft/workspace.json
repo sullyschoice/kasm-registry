@@ -1,0 +1,45 @@
+{
+  "description": "Open-source, native vector illustration app with pen, shape and brush tools, artboards and type.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "vectorcraft.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Multimedia",
+    "Utilities"
+  ],
+  "friendly_name": "VectorCraft",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-vectorcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-vectorcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-vectorcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Open-source, native spreadsheet that works the way Excel users expect and opens and saves .xlsx workbooks.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "gridcraft.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Office",
+    "Utilities"
+  ],
+  "friendly_name": "GridCraft",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-gridcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-gridcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-gridcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
