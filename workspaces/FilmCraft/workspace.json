@@ -1,0 +1,45 @@
+{
+  "description": "Open-source, native nonlinear video editor: edit video, color and sound.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "filmcraft.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Multimedia",
+    "Video Editing"
+  ],
+  "friendly_name": "FilmCraft",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:latest",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
