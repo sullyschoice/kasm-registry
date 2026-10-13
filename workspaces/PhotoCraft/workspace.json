@@ -1,0 +1,45 @@
+{
+  "description": "Open-source, native image editor with layers, masks, adjustment layers and layered PSD/PSB support.",
+  "docker_registry": "https://sccr.sullyschoice.net",
+  "image_src": "photocraft.png",
+  "gpu_count": 0,
+  "run_config": {
+  },
+  "exec_config": {
+  },
+  "categories": [
+    "Multimedia",
+    "Utilities"
+  ],
+  "friendly_name": "PhotoCraft",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-photocraft:latest",
+      "uncompressed_size_mb": 3600,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-photocraft:latest",
+      "uncompressed_size_mb": 3600,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.19.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-photocraft:latest",
+      "uncompressed_size_mb": 3600,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
