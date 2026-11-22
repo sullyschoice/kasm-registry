@@ -1,3 +1,4 @@
 1.0
 1.1
 feature_dependency_update
+feature_kasm-1.20-channels
