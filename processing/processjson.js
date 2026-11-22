@@ -74,7 +74,9 @@ glob("**/workspace.json", async function (err, files) {
 		modified: Date.now(),
 		workspaces: workspaces,
 		channels: [...channels],
-		default_channel: 'develop'
+		// Kasm rewrites a versioned default (e.g. 1.19.0-rolling -> 1.20.0-rolling) to match the
+		// running release when that channel exists, so this resolves correctly on every Kasm version.
+		default_channel: '1.19.0-rolling'
 	};
 
 	if (channels.size === 0) {

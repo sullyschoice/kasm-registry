@@ -19,26 +19,37 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:latest",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:1.19.0-rolling",
       "uncompressed_size_mb": 4000,
       "available_tags": [
+        "1.19.0-rolling",
         "latest"
       ]
     },
     {
       "version": "1.18.x",
-      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:latest",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:1.19.0-rolling",
       "uncompressed_size_mb": 4000,
       "available_tags": [
+        "1.19.0-rolling",
         "latest"
       ]
     },
     {
       "version": "1.19.x",
-      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:latest",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:1.19.0-rolling",
       "uncompressed_size_mb": 4000,
       "available_tags": [
+        "1.19.0-rolling",
         "latest"
+      ]
+    },
+    {
+      "version": "1.20.x",
+      "image": "sccr.sullyschoice.net/sullyschoice/kasm-filmcraft:1.20.0-rolling",
+      "uncompressed_size_mb": 4000,
+      "available_tags": [
+        "1.20.0-rolling"
       ]
     }
   ]

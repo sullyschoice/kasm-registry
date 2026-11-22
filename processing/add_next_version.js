@@ -1,11 +1,11 @@
 const fs = require("fs");
 const glob = require("glob");
 
-const baseversion = '1.16'
-const tag = ':develop'
+// Kasm release to add, e.g. '1.21'. Images are expected to publish a '<baseversion>.0-rolling' tag.
+const baseversion = '1.20'
 
 const version = baseversion + '.x'
-const tagversion = baseversion + '.0'
+const tagversion = baseversion + '.0-rolling'
 
 glob("../workspaces/**/workspace.json", async function (err, files) {
 	if (err) {
@@ -26,15 +26,14 @@ glob("../workspaces/**/workspace.json", async function (err, files) {
 
 		const exists = parsed.compatibility.findIndex(el => el.version === version)
 
+		// Never list 'latest' here: it stays on the 1.19-compatible image and newer
+		// Kasm releases refuse to launch images built for older releases.
 		let details = {
 			version,
-			image: image + tag,
-			uncompressed_size_mb: 0,
+			image: image + ':' + tagversion,
+			uncompressed_size_mb: current.uncompressed_size_mb || 0,
 			available_tags: [
-				'develop',
-				tagversion,
-				tagversion + '-rolling-weekly',
-				tagversion + '-rolling-daily'
+				tagversion
 			]
 		}
 
