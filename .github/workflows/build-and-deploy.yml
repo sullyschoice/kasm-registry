@@ -24,3 +24,6 @@ jobs:
         with:
           branch: gh-pages
           folder: public
+          # Commit as the Actions bot instead of the pusher, so no personal email lands in gh-pages history
+          git-config-name: github-actions[bot]
+          git-config-email: 41898283+github-actions[bot]@users.noreply.github.com
